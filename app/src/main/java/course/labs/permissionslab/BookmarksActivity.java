@@ -23,27 +23,7 @@ public class BookmarksActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.bookmarks_activity);
 
-		Button getBookmarksButton = (Button) findViewById(R.id.get_bookmarks_button);
-		getBookmarksButton.setOnClickListener(new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-
-				loadBookmarks();
-
-			}
-		});
-
-		Button goToDangerousActivityButton = (Button) findViewById(R.id.go_to_dangerous_activity_button);
-		goToDangerousActivityButton.setOnClickListener(new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-
-				startGoToDangerousActivity();
-
-			}
-		});
+		
 
 	}
 
